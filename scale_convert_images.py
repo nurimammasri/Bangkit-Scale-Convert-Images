@@ -2,6 +2,8 @@
 import os
 from PIL import Image
 
+# depending on linux use below
+# destinationDirectory = os.path.join(os.sep, "opt", "icons", "")
 destinationDirectory = os.path.join("opt", "icons", "")
 imagesDirectory = os.path.join("images", "")
 
